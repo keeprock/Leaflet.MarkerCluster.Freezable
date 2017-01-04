@@ -1,15 +1,13 @@
 {
-    "name": "leaflet.markercluster",
-    "version": "1.0.0",
-    "homepage": "https://github.com/Leaflet/Leaflet.markercluster",
+    "name": "leaflet.markercluster.freezable.keeprock",
+    "version": "0.1.1",
+    "homepage": "https://github.com/ghybs/Leaflet.MarkerCluster.Freezable",
     "authors": [
-        "Dave Leaver <danzel@localhost.geek.nz>"
+        "Boris Seang"
     ],
-    "description": "Marker Clustering plugin for Leaflet.",
+    "description": "Sub-plugin for Leaflet.markercluster plugin; adds the ability to freeze clusters at a specified zoom.",
     "main": [
-        "dist/leaflet.markercluster-src.js",
-        "dist/MarkerCluster.css",
-        "dist/MarkerCluster.Default.css"
+        "dist/leaflet.markercluster.freezable-src.js"
     ],
     "license": "MIT",
     "ignore": [
